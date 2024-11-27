@@ -1,0 +1,27 @@
+*{
+    background-color:hsl(30, 38%, 92%);
+}
+#title{
+    color: hsl(30, 38%, 92%);
+}
+#content{
+    font-size: small;
+    color: hsl(30, 38%, 92%);
+}
+#discount{
+    color: hsl(158, 36%, 37%);
+}
+#button,#cart{
+    background-color: hsl(158, 36%, 37%);
+}
+#button:hover{
+    background-color: hsl(158, 36%, 20%);
+    #cart{
+        background-color: hsl(158, 36%, 20%);
+    }
+}
+@media(min-width:426px){
+    #main{
+        margin-top: 11%;
+    }
+}
